@@ -19,7 +19,7 @@ tree = app_commands.CommandTree(client)
 
 
 
-openai.api_key = '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'
+openai.api_key = ''
 logging.basicConfig(filename="assets/log.txt", level=logging.INFO,
                     format="%(asctime)s %(message)s")
 
@@ -71,5 +71,5 @@ async def first_command(interaction):
     await interaction.response.send_message("HyperAI founder is Garry")
 
 
-client.run('MTA1NDQ3MTA3ODk2NzI1OTIxNw.GEXPN8.s7G4TLaCM9kMN--37_HJ_blTCbDB--piXhGtwI')
+client.run('')
 
